@@ -1,0 +1,39 @@
+<!DOCTYPE html><!--Definicion de tipo de documento-->
+<html lang="en"><!--Apertura de la pagina html-->
+<head><!--Encabezado de la pagina html-->
+    <meta charset="UTF-8"><!--Codificacion de caracteres especiales -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Proyecto en HTML</title>
+</head>
+<body><!--Contenido de la pagina-->
+    <h1>Bienvenidos a Prgramacion IV</h1>
+    <h3>Hola Mundo</h3>
+    <p>Esto es un parrafo <br>
+        de texto
+         </p>
+ <form id="fralumnos">
+    <label for="txtCodigoAlumno">Codigo: </label>
+    <input  required  title = "Ingrese un Codigo de Estudiante Valido" 
+    pattern="[US|SM]{2}[IS|LE]{2}[0-9]{6}"
+    type="text" name="txtCodigo" id="txtCodigo">
+    <label for="txtCodigoAlumno"> Nombre: </label>
+    <input  required  title ="" 
+    pattern="[A-Za-zÑñ ]{3,75}"
+    type="text" name="txtCodigoAlumno" id="txtCodigoAlumno"> 
+    <label for="txtCodigoAlumno"> Apellido: </label>
+    <input  required  title ="" 
+    pattern="[A-Za-zÑñ ]{3,75}"
+    type="text" name="txtCodigoAlumno" id="txtCodigoAlumno">
+    <label for="txtCodigoAlumno"> Telefono: </label>
+    <input  required  title ="" 
+    pattern="[0-9 ]{8}"
+    type="text" name="txtCodigoAlumno" id="txtCodigoAlumno">
+    <input type="submit" value="Guardas Datos">
+ </form>
+ <script>
+    alert("Hola mundo");
+    let $frmalumnos = document.querySelector("#frmalumnos");
+ </script>
+</body>
+</html>
